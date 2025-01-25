@@ -1,4 +1,4 @@
-import { serve } from "https://deno.land/std@0.204.0/http/server.ts";
+import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
 
 // 读取 HTML 文件
 const html = await Deno.readTextFile("./index.html");
